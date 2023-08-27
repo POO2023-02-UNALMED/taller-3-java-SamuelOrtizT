@@ -6,10 +6,10 @@ public class Control {
         this.tv = tv;
         tv.setControl(this);
     }
-    public TV getTV () {
+    public TV getTv () {
         return this.tv;
     }
-    public void setTV (TV tv) {
+    public void setTv (TV tv) {
         this.tv = tv;
     }
     public void turnOn () {
