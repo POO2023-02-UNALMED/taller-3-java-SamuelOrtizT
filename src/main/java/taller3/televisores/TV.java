@@ -46,7 +46,6 @@ public class TV {
     }
     public void setControl (Control control) {
         this.control = control;
-        control.enlazar(this);
     }
     public static int getNumTV () {
         return TV.numTV;
